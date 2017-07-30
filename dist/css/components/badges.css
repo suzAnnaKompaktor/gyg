@@ -1,0 +1,56 @@
+/**
+ * @file
+ * components/badges.less.
+ */
+.badge {
+  padding: 0 5px;
+  vertical-align: middle;
+  line-height: 1.5em;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: #fff;
+  background-color: #212121;
+}
+a.badge:hover,
+a.badge:focus {
+  background-color: #080808;
+}
+.badge.bg-styled {
+  background-color: #212121;
+  -webkit-box-shadow: inset 0 0 20px rgba(20, 20, 20, 0.8);
+  box-shadow: inset 0 0 20px rgba(20, 20, 20, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(20, 20, 20, 0.8);
+  box-shadow: inset 0 0 2rem rgba(20, 20, 20, 0.8);
+}
+.badge.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, #141414 0%, #212121 30%);
+  background-image: -o-linear-gradient(top, #141414 0%, #212121 30%);
+  background-image: linear-gradient(to bottom, #141414 0%, #212121 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff141414', endColorstr='#ff212121', GradientType=0);
+}
+.badge.bordered {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0d0d0d;
+}
+.badge .jumbotron {
+  background: transparent;
+}
+.badge-primary {
+  background-color: #0088CC;
+}
+.badge-success {
+  background-color: #99bb12;
+}
+.badge-info {
+  background-color: #4D99E0;
+}
+.badge-warning {
+  background-color: #F5B62A;
+}
+.badge-danger {
+  background-color: #A31905;
+}
